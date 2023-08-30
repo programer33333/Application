@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.crud.tasks.domain.Task;
 
 import java.util.List;
-
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/v1/tasks")
 @RequiredArgsConstructor
