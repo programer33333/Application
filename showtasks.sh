@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 
 fail() {
    echo "There were errors"
